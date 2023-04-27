@@ -33,7 +33,7 @@ header{
     flex-basis: 20%;
     
 }
-.nav-bar{
+.nav-col{
     background-color: #3161e0;
 }
 
@@ -130,6 +130,12 @@ footer{
 .bgc{
     background-color: #d3d3d3;
 }
+
+.section > .pink-column{
+    flex-basis: 33%;
+    margin-right: 120px;
+}
+
 .last-descriptionbox{
     background-color: green;
     height: 700px;
