@@ -19,14 +19,11 @@ header{
     display: flex;
     justify-content: center;
     align-items: flex-start;
-
-
 }
 .container {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
 }
-
 
 /* header */
 .logo, .bottone, .login, .nav {
@@ -67,10 +64,11 @@ ul{
 h1{
     font-size: 2.5em;
 }
-p{
+.descriptionbox >p{
     padding: 50px 0px 25px 0px;
     font-size: 1em;
     text-align: center;
+    margin: 0 100px 0 100px;
 }
 .flex-button{
     display: flex;
@@ -91,8 +89,11 @@ p{
     content: '\01F82B';
     margin-right: 10px;
 }
-
-
+p{
+    font-size: 25px;
+    padding-top: 20px;
+    text-align: start;
+}
 .descriptionbox{
     height: 400px;
     color: white;
@@ -101,6 +102,10 @@ p{
     width: 80%;
     padding-top: 100px;
 }
+.pink-column > h1{
+    font-size: 3em;
+}
+
 
 footer{
     background-color: #202124;
@@ -110,19 +115,17 @@ footer{
 
 
 .blue-column{
-    height: 400px;
-    flex-basis: 66%;
-    background-color: #1e90ff;
-    border: 2px solid black;
-      margin: 50px 0px;
+    height: 600px;
+    margin: 150px 0px;
+    text-align: center;
+    padding-right: 120px;
 }
 
 .pink-column{
-    height: 400px;
-    flex-basis: 34%;
-    background-color: #ffc0cb;
-    border: 2px solid black;
-    margin: 50px 0px;
+    height: 600px;
+    flex-basis: 26%;
+    margin: 150px 0px;
+    padding-top: 40px;
 }
 .bgc{
     background-color: #d3d3d3;
