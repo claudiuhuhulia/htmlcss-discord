@@ -1,0 +1,98 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #add8e6;
+    width: 100%;
+    height: 100px;
+    padding-top: 20px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo, .bottone, .login, .nav {
+    height: 50px;
+    background-color: #daa520;
+    flex-basis: 20%;
+    border: 2px solid black;
+}
+
+footer{
+    background-color: #202124;
+    width: 100%;
+}
+.descriptionbox{
+    height: 400px;
+    background-color: #ee82ee;
+    flex-basis: 50%;
+    border: 2px solid black;
+    margin: 50px;
+}
+main{
+    background-color: #00008b;
+}
+
+.blue-column{
+    height: 400px;
+    flex-basis: 66%;
+    background-color: #1e90ff;
+    border: 2px solid black;
+      margin: 50px 0px;
+}
+
+.pink-column{
+    height: 400px;
+    flex-basis: 34%;
+    background-color: #ffc0cb;
+    border: 2px solid black;
+    margin: 50px 0px;
+}
+.bgc{
+    background-color: #d3d3d3;
+}
+.last-descriptionbox{
+    background-color: green;
+    height: 700px;
+    flex-basis: 100%;
+    border: 2px solid black;
+    margin: 50px 0;
+}
+.info{
+    height: 700px;
+    flex-basis: 100%;
+    padding:20px 0 ;
+}
+.first-column{
+    height: 100%;
+    flex-basis: 40%;
+    background-color: #f08080;
+    border: 2px solid black;
+}
+.column{
+    height: 100%;
+    flex-basis: 20%;
+    background-color: #20b2aa;
+    border: 2px solid black;
+}
+.column-footer{
+    height: 100px;
+    background-color: #7fffd4;
+    border: 2px solid black;
+}
+.column-footer {
+    align-items: center;
+    justify-content: space-between; 
+}
+ .nav{
+    flex-basis: 60%;
+ }
